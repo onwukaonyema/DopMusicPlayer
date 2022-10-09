@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:'Cabin', sans-serif ;
+}
+body{
+    background-color:#0d0d0d;
+}
+.container{
+    display: block;
+}
+.music-card{
+    margin-left: 330px;
+    width: 400px;
+    display: inline-block;
+    margin-top: 35px;
+    height: 550px;
+    background: linear-gradient(145deg, #0d0d0d, black);
+    box-shadow:  21px 21px 42px black,-21px -21px 42px  black;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+.music-card2{
+    width: 300px;
+    display: inline-block;
+    margin-top: -35px;
+    height: 550px;
+    background: linear-gradient(145deg, #0d0d0d, black);
+    box-shadow:  21px 21px 42px black,-21px -21px 42px  black;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-image: url("ld.jpg");
+    background-size: cover;
+    backdrop-filter: blur(3px);
+
+}
+.music-card2{
+    opacity: 100%;
+    color: #ffffff;
+}
